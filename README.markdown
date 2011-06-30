@@ -63,5 +63,6 @@ Pacote Web é um nome pequeno para dizer o que este curso significa. Na realidad
 8. Eventos e callbacks
     - Conceitos: eventos e callbacks
     - Funções: ``.hover``, ``.click``, ``.toggle``
-9. AJAX
-    - Funções: ``.get``, ``.getJSON``
+9. Introdução ao AJAX com jQuery
+    - Conceitos: ciclo requisição-resposta e JSON
+    - Funções: ``.get``, ``.post``, ``.getJSON``
