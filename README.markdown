@@ -1,3 +1,7 @@
+# Sobre o curso
+Pacote Web é um nome pequeno para dizer o que este curso significa. Na realidade o seu nome deveria ser Desenvolvimento Web client-side ou *Web front-end engineering*. O seu foco é estudar os conceitos e tecnologias utilizadas no desenvolvimento da parte da Web que funciona dentro do navegador.
+
+**Pré-requisitos**: Para o módulo de jQuery e JavaScript é necessário conhecimento mínimo de alguma linguagem de programação. Para os demais módulos só é preciso vontade de aprender.
 
 # Ementa
 
