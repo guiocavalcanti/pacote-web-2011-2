@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<title>Desenvolvimento Web Client-side</title>
+</head>
+<body>
+  <form action="/login" method="GET">
+    <fieldset>
+      <legend>Formulário de login:</legend>
+      <label for="input-login">Login:</label>
+      <!-- <input type="text" name="login" id="input-login" value="Digite seu login ou e-mail" /> -->
+      <input type="text" name="login" id="input-login" />
+
+      <label for="input-password">Senha:</label>
+      <input type="password" name="pass" id="input-password" />
+
+      <label for="input-manterlogado">Quero continuar logado:</label>
+      <input type="checkbox" name="logado" id="input-manterlogado" value="1" />
+
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="input-male" value="masc" />
+        <label for="input-male">Masculino</label>
+
+        <input type="radio" name="sexo" id="input-fem" value="fem" />
+        <label for="input-fem">Feminino</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Bens</legend>
+        <input type="checkbox" name="bens" value="casa" id="input-casa" />
+        <label for="input-casa">Casa prop.</label>
+        <input type="checkbox" name="bens" id="input-carro" value="carro" />
+        <label for="input-carro">Carro</label>
+      </fieldset>
+
+
+      <input type="submit" value="Entrar" />
+    </fieldset>
+  </form>
+</body>
+</html>
