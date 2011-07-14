@@ -1,0 +1,25 @@
+.titulo {
+  color: red;
+}
+
+#descricao {
+  color: blue;
+}
+
+#descricao em {
+  color: #969696;
+}
+
+/* poderia ser simplesmente .sublist */
+.ingredientes .sublist {
+  background: gray;
+}
+
+.sublist li,
+.sublist a {
+  color: white;
+}
+
+.passos {
+  color: blue;
+}
