@@ -1,0 +1,47 @@
+/*
+ p {
+  se não houver arial, tentar tahoma, etc
+  font-family: "Pacifico", cursive;
+  pode ser bold ou normal (ou valor númerico)
+  font-weight: bold
+  font-size: 20px;
+  pode ser italic, oblique e normal
+  font-style: italic;
+}
+*/
+
+a {
+  /* none, underline, line-through, blink (DONT) */
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+input:focus {
+  background: blue;
+}
+
+.primeiro,
+.segundo,
+.terceiro {
+  width: 600px;
+}
+
+.primeiro {
+  /* left, right, justify */
+  text-align: right;
+  line-height: 160%;
+}
+
+.segundo {
+  text-align: justify;
+  /* uppercase, lowercase, captalize */
+  text-transform: capitalize;
+}
+
+.terceiro:first-letter {
+  font-size: 20px;
+  color: red;
+}
