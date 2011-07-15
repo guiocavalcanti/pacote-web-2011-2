@@ -1,3 +1,69 @@
-#primeiro {
+#segundo {
+  background: #00FEAE;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-top: 30px;
+  /* padding: 10px 20px 40px 59px */
+  /* padding: 10px 20px
+   * igual com o margin */
+}
 
+#terceiro {
+  width: 50px;
+  height: 50px;
+  background: #716747;
+
+  /* dotted, solid, dashed */
+  border: 1px dashed #F09738;
+  /* border-left-stye: dotted;
+   * border-top-width: 5px;
+   * border-bottom-color: red; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#primeiro {
+  width: 300px;
+  border: 1px solid red;
+
+  /* background: url("") repeat-x ou repeat-y ou no-repeat */
+  /* background-image: url("../imgs/abstrato.jpg"); */
+  /* background-repeat: repeat-x; */
+  /* background: red url("") repeat-x */
+  /* background-color: red; */
+
+  /* background: url("../imgs/abstrato.jpg") no-repeat 10px 50px;
+  background-position: 10px 50px */
+}
+
+.negrito {
+  font-style: italic;
 }
