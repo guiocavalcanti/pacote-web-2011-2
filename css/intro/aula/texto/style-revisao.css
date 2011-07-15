@@ -1,0 +1,27 @@
+#primeiro {
+  font-family: Arial, Tahoma, sans-serif;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+
+  width: 200px;
+  /* height: 200px; */
+
+  text-align: justify;
+
+}
+
+#segundo:first-letter {
+  font-size: 20px;
+  font-style: italic;
+  /* depende da fonte também */
+  font-variant: small-caps;
+}
+
+a:hover {
+ color: red;
+ text-decoration: none;
+}
+
+input:focus {
+  background: blue;
+}

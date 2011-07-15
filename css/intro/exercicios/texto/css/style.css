@@ -1,0 +1,120 @@
+body {
+ font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+p {
+  font-size: 15px;
+  line-height: 140%;
+}
+
+#a {
+  background: red;
+  width: 600px;
+
+  /* Versão grande
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 20%;
+  */
+  /* Versão média */
+  /* margin: 20px 20% 20px 20%; */
+  /* Versão pequena */
+  margin: 20px auto;
+  `
+}
+
+#b {
+  background: blue;
+}
+
+.corpo {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.nome {
+  text-align: right;
+  font-size: 35px;
+}
+
+.nome:first-letter {
+  font-size: 50px;
+}
+
+.lembrete {
+  width: 400px;
+  color: gray;
+}
+
+.lembrete h3 {
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * body {
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.corpo {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.nome {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.nome:first-letter {
+  font-size: 60px;
+}
+
+.lembrete {
+  width: 500px;
+  color: gray;
+}
+
+.lembrete h3 {
+  font-style: italic;
+}
+  */
