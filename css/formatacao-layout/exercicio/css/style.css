@@ -1,0 +1,67 @@
+/**
+ * Cores utilizadas:
+   * Cor de pele: #EBE9DC
+   * Verde mais escuro: #98CD3F
+   * Verde mais claro: #ABE547
+   * Bordas: #D4D0C1
+   * Legend: #A8A599
+**/
+
+body {
+  font-family: Heveltica, Arial, Tahoma, sans-serif;
+  background: #EBE9DC url("../imagens/background.png") repeat-x;
+}
+
+a {
+  color: #98CD3F;
+}
+
+p {
+  color: #D4D0C1;
+  font-size: 0.7em;
+}
+
+#container {
+  margin: 50px auto;
+  padding: 50px;
+  width: 700px;
+  background-color: white;
+  border: 5px solid #D4D0C1;
+}
+
+form legend {
+  color: #A8A599;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+form fieldset {
+  background-color: #F5F4EE;
+  border: 3px solid #D4D0C1;
+  padding: 30px 100px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 20px 0 10px 0;
+}
+
+form input[type=text],
+form input[type=password] {
+  background: url("../imagens/input.gif") no-repeat;
+  display: block;
+  border: none;
+  width: 281px;
+  padding: 10px 10px 16px 10px;
+}
+
+form input[type=submit] {
+  background-color:  #ABE547;
+  border: 2px solid #D4D0C1;
+  color: white;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px;
+}
