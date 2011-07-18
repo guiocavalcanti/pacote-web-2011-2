@@ -7,6 +7,119 @@
    * Legend: #A8A599
 **/
 
+
+body {
+  background: #EBE9DC url("../imagens/background.png") repeat-x;
+  text-align: center;
+  font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+#container {
+  width: 800px;
+  margin: 50px auto;
+  border: 4px solid #d4d0c1;
+  background: white;
+  padding: 40px;
+  text-align: left;
+}
+
+fieldset {
+  background-color: #f5f4ee;
+  border: 3px solid #d4d0c1;
+  padding: 25px 90px;
+}
+
+legend {
+  color: #a8a599;
+  font-size: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+label,
+legend {
+  font-weight: bold;
+}
+
+label,
+input {
+  display: block;
+}
+
+input[type=submit] {
+  font-size: 20px;
+  font-weight: bold;
+  background: #98cd3f;
+  color: white;
+  border: 2px solid #999;
+  padding: 13px;
+}
+
+p {
+  font-size: 13px;
+  color: #a8a599;
+}
+
+a {
+  color: #98cd3f;
+}
+
+#campo-username,
+#campo-nome,
+#campo-email,
+#campo-senha {
+  width: 281px;
+  border: none;
+  padding: 10px 10px 16px 10px;
+  background: url("../imagens/input.gif") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 body {
   font-family: Heveltica, Arial, Tahoma, sans-serif;
   background: #EBE9DC url("../imagens/background.png") repeat-x;
@@ -65,3 +178,4 @@ form input[type=submit] {
   font-size: 1.1em;
   padding: 10px;
 }
+  */

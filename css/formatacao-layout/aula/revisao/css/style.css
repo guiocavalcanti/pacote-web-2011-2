@@ -1,0 +1,43 @@
+body {
+  /* truque p/ centralizar no IE6 */
+  text-align: center;
+}
+
+.quadrados {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 20px 0;
+  /* truque p/ centralizar no IE*/
+  text-align: left;
+  /*
+  border-top-color: purple;
+  border-left-color: purple;
+  border-bottom-color: purple;
+  border-top-color: purple;
+  */
+}
+
+#primeira {
+  background: white url("../imgs/abstrato.jpg") repeat-y 100px 10px;
+  /*
+  background-image:
+  background-position: x y
+  background-color:
+  background-repeat:
+  */
+  height: 100px;
+}
+
+#segunda {
+  /* width: 960px; */
+  width: 600px;
+  margin: 0 auto;
+}
+
+input[value=Texto] {
+  background: blue;
+}
+
+input {
+  display: block;
+}
