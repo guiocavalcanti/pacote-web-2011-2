@@ -24,6 +24,31 @@
   border: 1px solid blue;
 }
 
+#cabecalho .nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#esquerda {
+  clear: left;
+}
+
+#cabecalho .nav li {
+  float: left;
+}
+
+#cabecalho a {
+  padding: 10px 20px;
+  display: block;
+}
+
+#cabecalho a:hover {
+  background: gray;
+}
+
+
 .esquerda {
   float: right;
 }
