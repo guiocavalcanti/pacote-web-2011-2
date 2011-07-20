@@ -14,3 +14,263 @@
 
 /* Começar aqui */
 
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  background: url("../images/bg-geral.png");
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#barra {
+  background: url("../images/bg-barra-topo.png") repeat-x;
+  overflow: hidden;
+  height: 60px;
+}
+
+#barra-interna {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#redes-sociais {
+  margin-left: 600px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100px;
+  float: left;
+}
+
+#redes-sociais li {
+  float: left;
+  margin-right: 10px;
+}
+
+#redes-sociais a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+}
+
+#redes-sociais .rss {
+  background: url("../images/bt-rss.png") no-repeat;
+}
+
+#redes-sociais .face {
+  background: url("../images/bt-facebook.png") no-repeat;
+}
+
+#redes-sociais .twitter {
+  background: url("../images/bt-twitter.png") no-repeat;
+}
+
+#buscar {
+  width: 193px;
+  margin-top: 10px;
+}
+
+#buscar input {
+  background: url("../images/bg-busca.png") no-repeat;
+  border: none;
+  color: white;
+  width: 160px;
+  padding: 7px 23px 10px 10px;
+}
+
+#buscar label {
+  display: none;
+  float: left;
+}
+
+#container {
+  margin: 0 auto;
+  width: 950px;
+}
+
+#cabecalho {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#logotipo {
+  width: 300px;
+  float: left;
+}
+
+#logotipo a {
+  font-family: 'Tienne', serif;
+  font-size: 35px;
+
+  text-shadow: 1px 1px 2px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+#nav {
+  width: 500px;
+  float: right;
+  overflow: hidden;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav .atual {
+  background: url("../images/bg-transparente.png");
+  color: white;
+
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#nav a {
+  padding: 10px 20px;
+  display: block;
+  color: #797F90;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  text-shadow: 1px 1px 2px #000000;
+  filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+#banner {
+  background: url("../images/bg-banner.png") no-repeat;
+  height: 379px;
+  margin-bottom: 30px;
+}
+
+#chamadas {
+  background: url("../images/bg-transparente.png");
+  overflow: hidden;
+  padding: 20px;
+}
+
+#chamadas .chamada {
+  background: url("../images/bg-transparente.png");
+  width: 250px;
+  padding: 18px;
+  float: left;
+  margin-right: 15px;
+}
+
+#chamadas .titulo {
+  background: url("../images/bg-boxes.png") repeat-x;
+  padding: 14px;
+  font-size: 17px;
+  margin-left: -18px;
+  margin-top: -18px;
+  margin-bottom: 20px;
+  width: 258px;
+}
+
+#chamadas .titulo a {
+  background: url("../images/icone-pessoa.png") no-repeat;
+  display: block;
+  padding: 2px 0;
+  padding-left: 30px;
+}
+
+#chamadas .chamada h3 {
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+#chamadas .chamada p {
+  line-height: 150%;
+  margin-bottom: 15px;
+  color: #72809F;
+}
+
+#chamadas .chamada .leia-mais {
+  padding: 10px 12px;
+  background: #11719F;
+  display: block;
+  width: 58px;
+}
+
+#chamadas .ultima {
+  margin-right: 0;
+  height: 308px;
+}
+
+#chamadas .ultima em {
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#chamadas .ultima a,
+#chamadas .ultima address {
+  color: #72809F;
+}
+
+#chamadas .ultima .titulo a {
+  color: white;
+}
+
+#chamadas .ultima li {
+  margin-bottom: 15px;
+}
+
+#rodape {
+  margin-top: 20px;
+  background: #0F131F;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+#rodape-interno {
+  width: 950px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#rodape h2 {
+  color: #747D90;
+  font-size: 17px;
+  margin-bottom: 15px;
+  background: url("../images/icone-twitter.png") no-repeat;
+  padding: 3px 0;
+  padding-left: 50px;
+}
+
+#tweets li {
+  float: left;
+  margin-right: 5px;
+  width: 270px;
+  background: url("../images/bg-twitter.png") no-repeat;
+  padding: 40px 20px 0 20px;
+  height: 134px;
+}
+
+#tweets .ultimo {
+  margin-right: 0;
+}
+
+#copyright {
+  background: black;
+  border-top: 1px solid #181F31;
+  padding: 20px 0 ;
+}
+
+#copyright p {
+  color: white;
+  width: 950px;
+  margin: 0 auto;
+}
+
