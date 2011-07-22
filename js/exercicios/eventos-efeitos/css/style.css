@@ -1,0 +1,20 @@
+div {
+  padding: 50px;
+  color: white;
+  float: left;
+  margin: 10px;
+  border: 1px solid white;
+}
+
+#primeiro {
+  background: red;
+}
+
+#segundo {
+  background: green;
+  color: black;
+}
+
+#terceiro {
+  background: blue;
+}
