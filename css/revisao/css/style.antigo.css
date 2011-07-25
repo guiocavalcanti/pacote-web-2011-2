@@ -1,0 +1,244 @@
+/* Deixar o clearfix no começo do arquivo */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix { display: inline-table; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+/* Começar aqui */
+body {
+  background: url("../images/bg-geral.png");
+  font-family: Arial, sans-serif;
+  color: white;
+  font-size: 13px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#bar .bar-interno,
+#container {
+  width: 950px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#bar {
+  background: url("../images/bg-barra-topo.png") repeat-x;
+  height: 60px;
+  overflow: hidden;
+}
+
+#redes-sociais,
+#buscar {
+  float: left;
+}
+
+#redes-sociais {
+  margin-left: 655px;
+}
+
+#redes-sociais li {
+  float: left;
+}
+
+#redes-sociais a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 16px;
+  height: 16px;
+}
+
+#redes-sociais .rss,
+#redes-sociais .facebook,
+#redes-sociais .twitter {
+  background-repeat: no-repeat;
+  margin: 15px 0 15px 10px;
+}
+
+#redes-sociais .rss {
+  background-image: url("../images/bt-rss.png");
+}
+
+#redes-sociais .facebook {
+  background-image: url("../images/bt-facebook.png");
+}
+
+#redes-sociais .twitter {
+  background-image: url("../images/bt-twitter.png");
+}
+
+#buscar label {
+  display: none;
+}
+
+#buscar input {
+  background: url("../images/bg-busca.png") no-repeat;
+  width: 153px;
+  border: none;
+  padding: 8px 30px 10px 10px;
+  color: white;
+  margin: 10px 0 10px 20px;
+
+}
+
+#logotipo {
+  float: left;
+}
+
+#cabecalho {
+  overflow: hidden;
+  height: 100px;
+}
+
+#nav {
+  float: right;
+  margin: 30px 0;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav a {
+  padding: 10px 20px;
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#nav .current {
+  background: url("../images/bg-transparente.png");
+}
+
+#banner {
+  height: 379px;
+  background: url("../images/bg-banner.png") no-repeat;
+  margin-bottom: 20px;
+}
+
+#chamadas {
+  overflow: hidden;
+  background: url("../images/bg-transparente.png");
+  padding: 25px;
+}
+
+#chamadas .chamada {
+  width: 250px;
+  float: left;
+  background: url("../images/bg-transparente.png");
+  margin-right: 15px;
+  padding: 20px;
+}
+
+#chamadas .ultima {
+  margin-right: 0;
+}
+
+#chamadas .titulo {
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  width: 290px;
+  background: url("../images/bg-boxes.png") repeat-x;
+  font-size: 16px;
+}
+
+#chamadas .entrada {
+  font-size: 15px;
+  margin: 15px 0;
+  display: block;
+}
+
+#chamadas .leia-mais {
+  padding: 10px 15px;
+  background: #236697;
+  display: block;
+  width: 58px;
+}
+
+#chamadas .contatos li {
+  margin-bottom: 25px;
+}
+
+#chamadas .contatos {
+  min-height: 300px;
+}
+
+#chamadas .contatos em {
+  display: block;
+  text-transform: uppercase;
+}
+
+#chamadas .contatos address,
+#chamadas .contatos li a {
+  color: #72809F;
+}
+
+#chamadas p {
+  color: #72809F;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+#chamadas em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+#chamadas .titulo a {
+  padding: 15px 10px;
+  display: block;
+}
+
+#rodape {
+  overflow: hidden;
+  background: #10131C;
+  border-bottom-color: black;
+  margin-top: 15px;
+}
+
+#rodape .rodape-interno {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 950px;
+  padding: 20px 15px;
+}
+
+#rodape .titulo-twitter {
+  color: #747D90;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#rodape .tweets li {
+  width: 275px;
+  margin-right: 10px;
+  float: left;
+  background: url("../images/bg-twitter.png") no-repeat;
+  padding: 40px 15px 15px 15px;
+  height: 84px;
+}
+
+#copyright {
+  background: black;
+  border-top: 1px solid #171C2B;
+}
+
+#copyright p {
+  margin: 0 auto;
+  width: 950px;
+  padding: 10px 0;
+  color: #171C2B;
+}
